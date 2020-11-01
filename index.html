@@ -315,6 +315,47 @@
     </p>
   </td>
 </tr> 
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+<tr onmouseout="nlt_stop()" onmouseover="nlt_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='nlt_image'><video  width=100% height=100% muted autoplay loop>
+      <source src="" type="video/mp4"> 
+        <!-- This is the mp4 -->
+      Your browser does not support the video tag.
+      </video></div>
+      <br><br>
+      <img src='images/agile.png' width="160">
+      <!-- This is the thumbnail image -->
+    </div>
+    <script type="text/javascript">
+      function nlt_start() {
+        document.getElementById('nlt_image').style.opacity = "1";
+      }
+
+      function nlt_stop() {
+        document.getElementById('nlt_image').style.opacity = "0";
+      }
+      nlt_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+      <papertitle>Java Grading System</papertitle>
+
+    <br>
+    <a href="data/Java Grading System.pdf" target="blank">project page</a> 
+    <p></p>
+    <p>Developed a Java Software that lets professors organize and compute grades of student enrolled in their courses. Gives the users
+      the flexiblity of setting rubrics, adding and removing assignments and computing statistics at the click of a button. A system that 
+      lets the user create a template that can be resused without having to define rubrics and component for every course.
+    </p>
+  </td>
+</tr> 
+
  <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
           <!-- <tr onmouseout="nerf_stop()" onmouseover="nerf_start()"  bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
