@@ -278,6 +278,43 @@
             </p>
           </td>
         </tr>  
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<tr onmouseout="nlt_stop()" onmouseover="nlt_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='nlt_image'><video  width=100% height=100% muted autoplay loop>
+      <source src="" type="video/mp4"> 
+        <!-- This is the mp4 -->
+      Your browser does not support the video tag.
+      </video></div>
+      <br><br>
+      <img src='images/ensemble.png' width="160">
+      <!-- This is the thumbnail image -->
+    </div>
+    <script type="text/javascript">
+      function nlt_start() {
+        document.getElementById('nlt_image').style.opacity = "1";
+      }
+
+      function nlt_stop() {
+        document.getElementById('nlt_image').style.opacity = "0";
+      }
+      nlt_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+      <papertitle>Ensemble Learning: Bias Variance Tradeoff</papertitle>
+
+    <br>
+    <a href="data/Ensemble Learning.pdf" target="blank">project page</a> 
+    <p></p>
+    <p>The goal of this project was to use an Ensemble Learning approach to enginner a architecure of Machine Learning models 
+      that finds the optimal balance between model performance of training data (Bias) and on unseen data at test time(Variance). I used widly 
+      accepted methods of Bagging and AdaBoosting with multiple base classifiers and evaluated results on several real world datasets.
+    </p>
+  </td>
+</tr> 
  <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
           <!-- <tr onmouseout="nerf_stop()" onmouseover="nerf_start()"  bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -367,7 +404,7 @@
               <p>Networks can be trained to remove shadows cast on human faces and to soften harsh lighting.</p>
             </td>
           </tr>  
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --
           <tr onmouseout="learnaf_stop()" onmouseover="learnaf_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
