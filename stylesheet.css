@@ -186,15 +186,15 @@ span::before {
     opacity: 0;
   }
   41% {
-    content: "eager to learn";
+    content: "problem solver";
     opacity: 0;
   }
   50% {
-    content: "eager to learn";
+    content: "problem solver";
     opacity: 1;
   }
   60% {
-    content: "eager to learn";
+    content: "problem solver";
     opacity: 0;
   }
 
