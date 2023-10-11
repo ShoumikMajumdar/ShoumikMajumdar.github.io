@@ -150,7 +150,7 @@ span::before {
   display: flex;
   align-items: center;
   font-size: 24px;  
-  content: "a machine learning engineer"; 
+  content: "machine learning engineer"; 
   animation: changeText linear infinite 18s; /* Multiple of number of prompts*/
   padding-left: 40px; 
   opacity: 0;
@@ -162,7 +162,7 @@ span::before {
 } */
 
 
-/* Within (100 / no of prompts )% , we go from 0 - 1 - 0. Here no of prompts = 5 */
+/* Within (100 / no of prompts )% , we go from 0 - 1 - 0. Here no of prompts = 6 */
 
 @keyframes changeText {
   8% {
