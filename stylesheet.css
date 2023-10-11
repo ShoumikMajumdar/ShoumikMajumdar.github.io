@@ -151,7 +151,7 @@ span::before {
   align-items: center;
   font-size: 24px;  
   content: "machine learning engineer"; 
-  animation: changeText linear infinite 15s; /* Multiple of number of prompts*/
+  animation: changeText linear infinite 18s; /* Multiple of number of prompts*/
   padding-left: 40px; 
   opacity: 0;
 }
@@ -165,64 +165,77 @@ span::before {
 /* Within (100 / no of prompts )% , we go from 0 - 1 - 0. Here no of prompts = 5 */
 
 @keyframes changeText {
-  10% {
+  8% {
       content: "machine learning engineer";
       opacity: 1;
   }
-  20% {
+  16% {
       content: "machine learning engineer";
       opacity: 0;
   }
-  21% {
+  17% {
       content: "critical thinker";
       opacity: 0;
   }
-  30% {
+  24% {
       content: "critical thinker";
       opacity: 1;
   }
-  40% {
+  32% {
     content: "critical thinker";
+    opacity: 0;
+  }
+  33% {
+    content: "problem solver";
     opacity: 0;
   }
   41% {
     content: "problem solver";
-    opacity: 0;
-  }
-  50% {
-    content: "problem solver";
     opacity: 1;
   }
-  60% {
+  48% {
     content: "problem solver";
     opacity: 0;
   }
 
-  61% {
+  49% {
     content: "animal lover"; 
     opacity: 0;
   }
 
-  70% {
+  56% {
     content: "animal lover"; 
     opacity: 1;
   }
 
+  64% {
+    content: "animal lover"; 
+    opacity: 0;
+  }
+
+  65% {
+  content: "knowledge seeker"; 
+  opacity: 0;
+} 
+  72% {
+    content: "knowledge seeker"; 
+    opacity: 1;
+  } 
   80% {
-    content: "animal lover"; 
+    content: "knowledge seeker"; 
     opacity: 0;
   }
 
   81% {
-  content: "tattoo enthusiast"; 
-  opacity: 0;
-} 
-  90% {
-    content: "tattoo enthusiast"; 
-    opacity: 1;
-  } 
-  100% {
-    content: "tattoo enthusiast"; 
+    content: "mentor"; 
     opacity: 0;
   }
+  90% {
+    content: "mentor"; 
+    opacity: 1;
+  }
+  100% {
+    content: "mentor"; 
+    opacity: 0;
+  }  
 }
